@@ -8,6 +8,8 @@ LABEL maintainer="Rajatgupta828@gmail.com"
 VOLUME /tmp
 
 
+WORKDIR /
+
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
 
