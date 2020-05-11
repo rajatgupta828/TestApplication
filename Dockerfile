@@ -5,7 +5,7 @@ FROM openjdk:8-jdk-alpine
 LABEL maintainer="Rajatgupta828@gmail.com"
 
 # Add a volume pointing to /tmp
-VOLUME /tmp
+VOLUME /tmp/${pwd}
 
 
 WORKDIR /
