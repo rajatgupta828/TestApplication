@@ -16,8 +16,9 @@ public class AppController {
 	@RequestMapping("/home")
 	public String index() {
 		System.out.println("Printing the home page");
+		System.out.println("Also printing something");
 		
-		returnValue = "Greetings from Spring Boot! , Current region is :" + regio;
+		returnValue = "Greetings from Spring Boot! , Current region is rajattt:" + regio;
 		
 		return returnValue ;
 	}
